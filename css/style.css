@@ -3104,6 +3104,29 @@ a:focus,a:hover {
     color: #fff
 }
 
+/* css modficicado*/
+.image-container {
+    position: relative;
+    top: 60px;
+  }
+  .mark img {
+    max-width: 100%;
+    height: auto;
+  }
+  .mark-3 img {
+    margin-bottom: 1rem;
+  }
+  .main-img {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Opcional: animación si usas WOW.js o similar */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+
 
 
 
